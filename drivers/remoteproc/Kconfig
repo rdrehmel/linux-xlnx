@@ -385,6 +385,12 @@ config ZYNQMP_R5_REMOTEPROC
 	  Say y or m here to support ZynqMP R5 remote processors via the remote
 	  processor framework.
 
+config PRISM_SP_REMOTEPROC
+	tristate "Prism SP remoteproc support"
+	depends on REMOTEPROC
+	help
+	  Specify y or m for Prism SP remote processor support.
+
 endif # REMOTEPROC
 
 endmenu
