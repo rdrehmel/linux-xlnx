@@ -50,6 +50,7 @@ config CX_ECAT
 
 source "drivers/net/ethernet/broadcom/Kconfig"
 source "drivers/net/ethernet/cadence/Kconfig"
+source "drivers/net/ethernet/cadence-prism-sp/Kconfig"
 source "drivers/net/ethernet/calxeda/Kconfig"
 source "drivers/net/ethernet/cavium/Kconfig"
 source "drivers/net/ethernet/chelsio/Kconfig"
